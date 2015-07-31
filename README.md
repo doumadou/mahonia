@@ -4,11 +4,12 @@ Automatically exported from code.google.com/p/mahonia
 code.google.com上的一个备份。
 
 使用方法：
-
+~~~ go
   # git clone git clone https://github.com/doumadou/mahonia.git /usr/lib/golang/src/code.google.com/p/mahonia
-  
+~~~
 
 转码例子：
+~~~ go
   package main
 
   import (
@@ -22,3 +23,4 @@ code.google.com上的一个备份。
   	enc := mahonia.NewDecoder("utf8")
     fmt.Println(enc.ConvertString(s))
   }
+~~~
